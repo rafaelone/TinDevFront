@@ -4,7 +4,17 @@ import './Login.css'
 
 export default function Login(){
   return(
-    <img src={logo} alt="Tindev"/>
+    <div className="login-container">
+      <form>
+        <img src={logo} alt="Tindev"/>
+        <input type="text"
+          name=""
+          id=""
+          placeholder="Digite seu usuário do GitHub"
+          />
+          <button> Enviar</button>
+      </form>
+    </div>
   )
 }
 
