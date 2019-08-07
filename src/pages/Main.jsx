@@ -1,5 +1,6 @@
 import React from 'react'
+import logo from '../assets/logo.svg'
 
-export default function Main(){
-  return <h1>Hello</h1>
+export default function Main({ match }){
+  return <h1>{match.params.id}</h1>
 }
